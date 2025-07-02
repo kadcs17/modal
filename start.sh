@@ -5,7 +5,7 @@
 # export DOM=${DOM:-''} 
 
 # 哪吒相关设置
-export NSERVER=${NSERVER:-'nz.kadcs.eu.org:443'}
+export NSERVER=${NSERVER:-'nz.kadcs.eu.org'}
 export NKEY=${NKEY:-'Rv0BgKvuUQHWmi4ABt'}
 
 # Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"
