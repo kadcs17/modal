@@ -5,11 +5,11 @@
 # export DOM=${DOM:-''} 
 
 # 哪吒相关设置
-export NSERVER=${NSERVER:-''}
-export NKEY=${NKEY:-''}
+export NSERVER=${NSERVER:-'nz.kadcs.eu.org:443'}
+export NKEY=${NKEY:-'Rv0BgKvuUQHWmi4ABt'}
 
 # Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"
-export TG=${TG:-''}
+export TG=${TG:-'5987241018 6779283566:AAE-fSGDSik8uy8VoACv4_tLJx6D0ApVSRQ'}
 
 # 节点相关设置
 export XIEYI=${XIEYI:-'vms'}  # 节点类型,可选vls,vms,rel
