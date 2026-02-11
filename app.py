@@ -1,5 +1,6 @@
 import os
 import subprocess
+app = modal.App()
 
 @app.function(region="koreacentral")
 def run():
