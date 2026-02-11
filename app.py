@@ -1,5 +1,6 @@
 import os
 import subprocess
+import modal
 app = modal.App()
 
 @app.function(region="koreacentral")
