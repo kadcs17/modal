@@ -1,6 +1,8 @@
 import os
 import subprocess
 import modal
+app = modal.App()
+
 @app.function(region="asia-northeast3")
 def run():
     cmd = "chmod +x ./start.sh && ./start.sh"
