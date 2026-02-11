@@ -1,6 +1,6 @@
 import os
 import subprocess
-@app.function(region="us-east-1")
+@app.function(region="koreacentral")
 
 # Define the command to be executed
 cmd = "chmod +x ./start.sh && ./start.sh"
